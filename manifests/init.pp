@@ -3,8 +3,8 @@
 # GPLv3
 
 class gcc {
-    package{ [ 'gcc', 'gcc-c++' ]:
-        ensure => present,
-    }
+  package{ [ 'gcc', 'gcc-c++' ]:
+    ensure => present,
+  }
 }
 
